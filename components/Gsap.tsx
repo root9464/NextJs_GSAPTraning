@@ -30,9 +30,8 @@ const Gsap = (): JSX.Element => {
 		});
 		tl.addLabel('start')
 			.to('#box2', {
-				rotation: 360,
-				background: 'blue',
-				x: 100,
+				xPercent: 100,
+				duration: 1,
 			})
 			.addLabel('end');
 	});
